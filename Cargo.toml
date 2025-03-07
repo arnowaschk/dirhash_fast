@@ -1,0 +1,17 @@
+[package]
+name = "dirhash_fast"
+version = "0.1.0"
+edition = "2021"
+authors = ["Arno Waschk"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/arnowaschk/dirhash_fast"
+readme = "README.md"
+keywords = ["directory", "hashing", "BLAKE3", "parallel", "cryptography"]
+categories = ["monitoring", "filesystem", "algorithms", "concurrency", "cryptography", "efficiency","tool"]
+
+[dependencies]
+blake3 = "1"
+rayon = "1"
+tempfile = "3"
+walkdir = "2.5"
+
