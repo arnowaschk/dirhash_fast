@@ -9,6 +9,22 @@ readme = "README.md"
 keywords = ["directory", "hashing", "BLAKE3", "parallel", "cryptography"]
 categories = ["monitoring", "filesystem", "algorithms", "concurrency", "cryptography", "efficiency","tool"]
 
+exclude = [
+    ".gitignore",
+    ".github/",
+    "patches/",
+    "target/",
+    "Cargo.lock",
+    "tests/",
+    "scripts/",
+    "examples/",
+    "docs/",
+    "up",
+    "*.rej",           # Exclude shell scripts
+    "*.log",          # Exclude log files
+    "*.tmp",          # Exclude temporary files
+]
+
 [dependencies]
 blake3 = "1"
 rayon = "1"
