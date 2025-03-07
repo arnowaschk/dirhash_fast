@@ -1,6 +1,6 @@
 [package]
 name = "dirhash_fast"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Arno Waschk"]
 description = "A high-performance tool for hashing directory trees"
