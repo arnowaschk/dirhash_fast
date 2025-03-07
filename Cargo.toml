@@ -3,6 +3,7 @@ name = "dirhash_fast"
 version = "0.1.0"
 edition = "2021"
 authors = ["Arno Waschk"]
+description = "A high-performance tool for hashing directory trees"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/arnowaschk/dirhash_fast"
 readme = "README.md"
