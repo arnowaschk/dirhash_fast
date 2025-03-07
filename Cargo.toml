@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/arnowaschk/dirhash_fast"
 readme = "README.md"
 keywords = ["directory", "hashing", "BLAKE3", "parallel", "cryptography"]
-categories = ["monitoring", "filesystem", "algorithms", "concurrency", "cryptography", "efficiency","tool"]
+categories = ["monitoring", "filesystem", "algorithms", "concurrency", "cryptography"]
 
 exclude = [
     ".gitignore",
